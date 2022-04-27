@@ -18,12 +18,21 @@
     <ClCompile Include="..\..\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Algorithm_2_1.cpp">
+    <ClCompile Include="SqList_2_1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SqList_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkNode_2_2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Algorithm_2_1.h">
+    <ClInclude Include="SqList_2_1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkNode_2_2.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
