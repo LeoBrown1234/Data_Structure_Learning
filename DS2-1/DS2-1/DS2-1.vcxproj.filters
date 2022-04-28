@@ -27,6 +27,9 @@
     <ClCompile Include="LinkNode_2_2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="exercise_temporary.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SqList_2_1.h">

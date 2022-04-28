@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\main.cpp" />
+    <ClCompile Include="exercise_temporary.cpp" />
     <ClCompile Include="SqList_2_1.cpp" />
     <ClCompile Include="LinkNode_2_2.cpp" />
     <ClCompile Include="SqList_main.cpp" />
