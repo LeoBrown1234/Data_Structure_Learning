@@ -30,12 +30,18 @@
     <ClCompile Include="exercise_temporary.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DLinkNode_2_3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SqList_2_1.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="LinkNode_2_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DLinkNode_2_3.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

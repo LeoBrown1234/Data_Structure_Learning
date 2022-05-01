@@ -12,22 +12,22 @@ void CreateListF(LinkNode*& L, ElemType a[], int n)//头插法
 		s = (LinkNode *)malloc(sizeof(LinkNode));//初始化新节点s
 		s->data = a[i];//赋值给新节点
 		s->next = L->next;//此时把s连接到头节点的后面
-		L->next = s;//L的下一个还是指向s
+		L->next = s;//L的下一个还是指向s           新节点先连后面再连前面，是为了防止找不到其后方的节点位置
 	}
 }
 void CreateListR(LinkNode*& L, ElemType a[], int n)//尾插法
 {
-	LinkNode* s, * r;
-	L = (LinkNode *)malloc(sizeof(LinkNode));
+	LinkNode* s, * r;//s代表新节点，r一直指向单链表的最末端
+	L = (LinkNode *)malloc(sizeof(LinkNode));//头节点初始化
 	r = L;
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < n; i++)//初始化s并赋值对应数据，r后面接上新节点，注意：r本身就是指针作用，可随时变化指的节点目标
 	{
 		s = (LinkNode *)malloc(sizeof(LinkNode));
 		s->data = a[i];
 		r->next = s;
-		r = s;
+		r = s;//r从新指向单链表最末端
 	}
-	r->next = NULL;
+	r->next = NULL;//最末端置空，断开指向的原来的临时新节点
 }
 void InitList(LinkNode*& L)//初始化单链表
 {
@@ -35,11 +35,11 @@ void InitList(LinkNode*& L)//初始化单链表
 	L->next = NULL;
 }
 void DestroyList(LinkNode*& L)//销毁单链表
-{
-	LinkNode* pre = L, * p = pre->next;
+{//每个节点都要单独销毁
+	LinkNode* pre = L, * p = pre->next;//前驱后继标好
 	while (p != NULL)
 	{
-		free(pre);
+		free(pre);//释放前驱
 		pre = p;
 		p = pre->next;
 	}
