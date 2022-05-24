@@ -33,6 +33,9 @@
     <ClCompile Include="DLinkNode_2_3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DLinkNode_2_3_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SqList_2_1.h">

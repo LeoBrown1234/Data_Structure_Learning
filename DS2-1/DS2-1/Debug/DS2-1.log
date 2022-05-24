@@ -1,9 +1,4 @@
 ﻿  main.cpp
-  exercise_temporary.cpp
-  SqList_2_1.cpp
-  LinkNode_2_2.cpp
-  SqList_main.cpp
+  DLinkNode_2_3_main.cpp
   正在生成代码...
-LinkNode_2_2.obj : error LNK2005: "void __cdecl CreateListF(struct LNode * &,char * const,int)" (?CreateListF@@YAXAAPAULNode@@QADH@Z) 已经在 exercise_temporary.obj 中定义
-LinkNode_2_2.obj : error LNK2005: "void __cdecl CreateListR(struct LNode * &,char * const,int)" (?CreateListR@@YAXAAPAULNode@@QADH@Z) 已经在 exercise_temporary.obj 中定义
-D:\my_app\vscode\DS_code\DS2-1\Debug\DS2-1.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
+  DS2-1.vcxproj -> D:\my_app\vscode\DS_code\DS2-1\Debug\DS2-1.exe

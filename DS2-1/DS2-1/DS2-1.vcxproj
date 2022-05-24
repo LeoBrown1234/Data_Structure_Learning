@@ -142,10 +142,15 @@
   <ItemGroup>
     <ClCompile Include="..\..\main.cpp" />
     <ClCompile Include="DLinkNode_2_3.cpp" />
+    <ClCompile Include="DLinkNode_2_3_main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="exercise_temporary.cpp" />
     <ClCompile Include="SqList_2_1.cpp" />
     <ClCompile Include="LinkNode_2_2.cpp" />
-    <ClCompile Include="SqList_main.cpp" />
+    <ClCompile Include="SqList_main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DLinkNode_2_3.h" />

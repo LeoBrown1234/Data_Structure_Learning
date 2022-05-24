@@ -20,12 +20,14 @@ bool ListEmpty(DLinkNode *L);//判双链表为空？
 
 int ListLength(DLinkNode *L);//求双链表长度
 
+void DispList(DLinkNode* L);//输出双链表
+
 bool GetElem(DLinkNode *L,int i,ElemType &e);//求双链表第i个元素的值
 
 int LocateElem(DLinkNode *L,ElemType e);//查找第一个值为e的元素序号
 
 bool ListInsert(DLinkNode *&L,int i,ElemType e);//插入第i个元素
 
-bool ListDelete();//删除第i个元素
+bool ListDelete(DLinkNode *&L,int i,ElemType &e);//删除第i个元素
 
 #endif
