@@ -139,11 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main_3_1.cpp" />
-    <ClCompile Include="main_SqStack.cpp" />
+    <ClCompile Include="LinkStNode.cpp" />
+    <ClCompile Include="main_3_1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="main_3_2.cpp" />
+    <ClCompile Include="main_test.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="SqStack.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="LinkStNode.h" />
     <ClInclude Include="SqStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
