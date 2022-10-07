@@ -31,6 +31,6 @@ bool ListInsert(SqList*& L, int i, ElemType e);//9插入数据元素
 
 bool ListDelete(SqList*& L, int i, ElemType& e);//10删除数据元素
 
-void Hello_View();
+
 
 #endif

@@ -4,41 +4,17 @@
 #define MAX_INT 32767
 #define MIN_INT -32768
 
-void Hello_View() //尝试的玩意儿
-{ 
-	int Choice;
-	printf("Choice a number you like:\n");
-
-	while (1) {
-		scanf("%d", &Choice);
-
-		if (Choice > 32767 || Choice < -32768) {
-			printf("The number must be needed between -32768 ~ 32767!!!\n\n");
-			printf("Please type a number again!!!\n\n");
-			printf("Choice a number you like:\n\n");
-			continue;
-		}
-		else if (Choice <= 0) {
-			printf("Go to the basement.\n");
-			break;
-		}
-		else {
-			printf("Go upstairs.\n");
-			break;
-		}
-	}
-}
 
 void  CreateList(SqList*& L, ElemType a[], int n)//1创建顺序表
 {
-	int i,k=0;
+	int i;
 	L = (SqList*)malloc(sizeof(SqList));
 	for (i = 0; i < n; i++)
 	{
 		L->data[i] = a[i];
-		k++;
+		
 	}
-	L->length = k;
+	L->length = n;
 }
 void InitList(SqList*& L) //2初始化顺序表
 {
@@ -79,7 +55,7 @@ int LocateElem(SqList* L, ElemType e)//8按元素值查找位置
 	int i = 0;
 	while (i < L->length && L->data[i] != e)
 		i++;
-	if (i > L->length)
+	if (i >= L->length)
 		return 0;
 	else
 		return i + 1;

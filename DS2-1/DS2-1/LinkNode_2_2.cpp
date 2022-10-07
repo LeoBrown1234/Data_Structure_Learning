@@ -142,6 +142,11 @@ bool ListDelete(LinkNode*& L, int i, ElemType& e)//É¾³ýµÚi¸öÔªËØ
 	{
 		return false;
 	}
+	while (j < i - 1 && p != NULL)
+	{
+		j++;
+		p = p->next;
+	}
 	if (p == NULL)
 	{
 		return false;
