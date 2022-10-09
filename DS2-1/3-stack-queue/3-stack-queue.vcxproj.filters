@@ -30,12 +30,30 @@
     <ClCompile Include="main_3_2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="SqQueue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main_3_3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkQuNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main_3_4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SqStack.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="LinkStNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SqQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkQuNode.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

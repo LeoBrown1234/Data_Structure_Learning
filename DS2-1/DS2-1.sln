@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9lookup", "9lookup\9lookup.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10sort", "10sort\10sort.vcxproj", "{586E2ADC-FCB6-4680-BA27-5238B90FEBFB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "notebook", "notebook\notebook.vcxproj", "{24E5D258-DA2E-417A-8B46-AFE28340647F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{586E2ADC-FCB6-4680-BA27-5238B90FEBFB}.Release|x64.Build.0 = Release|x64
 		{586E2ADC-FCB6-4680-BA27-5238B90FEBFB}.Release|x86.ActiveCfg = Release|Win32
 		{586E2ADC-FCB6-4680-BA27-5238B90FEBFB}.Release|x86.Build.0 = Release|Win32
+		{24E5D258-DA2E-417A-8B46-AFE28340647F}.Debug|x64.ActiveCfg = Debug|x64
+		{24E5D258-DA2E-417A-8B46-AFE28340647F}.Debug|x64.Build.0 = Debug|x64
+		{24E5D258-DA2E-417A-8B46-AFE28340647F}.Debug|x86.ActiveCfg = Debug|Win32
+		{24E5D258-DA2E-417A-8B46-AFE28340647F}.Debug|x86.Build.0 = Debug|Win32
+		{24E5D258-DA2E-417A-8B46-AFE28340647F}.Release|x64.ActiveCfg = Release|x64
+		{24E5D258-DA2E-417A-8B46-AFE28340647F}.Release|x64.Build.0 = Release|x64
+		{24E5D258-DA2E-417A-8B46-AFE28340647F}.Release|x86.ActiveCfg = Release|Win32
+		{24E5D258-DA2E-417A-8B46-AFE28340647F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

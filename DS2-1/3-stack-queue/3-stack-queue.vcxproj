@@ -139,18 +139,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LinkQuNode.cpp" />
     <ClCompile Include="LinkStNode.cpp" />
     <ClCompile Include="main_3_1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="main_3_2.cpp" />
+    <ClCompile Include="main_3_2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="main_3_3.cpp" />
+    <ClCompile Include="main_3_4.cpp" />
     <ClCompile Include="main_test.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="SqQueue.cpp" />
     <ClCompile Include="SqStack.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="LinkQuNode.h" />
     <ClInclude Include="LinkStNode.h" />
+    <ClInclude Include="SqQueue.h" />
     <ClInclude Include="SqStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -150,7 +150,7 @@
     </ClCompile>
     <ClCompile Include="exercise_temporary.cpp" />
     <ClCompile Include="LinkNode_main.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="SqList_2_1.cpp" />
     <ClCompile Include="LinkNode_2_2.cpp" />
